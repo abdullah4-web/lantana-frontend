@@ -1,0 +1,17 @@
+/* UserProfileUpdate.css */
+.profile-container {
+    margin-top: 40px;
+  }
+  
+  .profile-card {
+    text-align: center;
+    padding: 20px;
+  }
+  /* UserProfileUpdate.css */
+
+/* Custom class to add margin-top to the modal */
+.custom-modal {
+  margin-top: 80px;
+}
+
+  

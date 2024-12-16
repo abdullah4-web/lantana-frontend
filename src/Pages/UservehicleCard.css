@@ -1,0 +1,10 @@
+/* Adjust the max-height as needed */
+.modal-90w .modal-dialog {
+    max-width: 90%;
+  }
+  
+  .modal-scrollable-content {
+    max-height: 300px; /* Adjust the max height as needed */
+    overflow-y: auto;
+  }
+  

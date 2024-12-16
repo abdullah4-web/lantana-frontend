@@ -1,0 +1,23 @@
+.main {
+    background: white;
+    margin: 30px 47px; 
+
+  
+    /* Media query for mobile view */
+    @media (max-width: 767px) {
+      margin: 0 10px; /* Margin for mobile view */
+    }
+  }
+  .image-container {
+    height: 300px; /* Adjust the height as needed */
+  }
+  /* NotificationListUser.css */
+
+.mark-as-read-button {
+    margin-left: 8px; /* Add some margin to separate the buttons */
+  }
+  .delete-button {
+    margin-left: 8px;
+    padding: auto; /* Push the "Delete" button to the right corner */
+  }
+  

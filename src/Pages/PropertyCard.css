@@ -1,0 +1,20 @@
+/* Add this CSS to your stylesheet */
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    padding-bottom: 75%; /* Set this to your desired aspect ratio (e.g., 4:3 would be 75%) */
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  

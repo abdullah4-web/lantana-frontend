@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    height: 100%; /* This ensures a square aspect ratio */
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }

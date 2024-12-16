@@ -1,0 +1,23 @@
+.main {
+    background: white;
+    margin: 30px 0px; 
+
+  
+    /* Media query for mobile view */
+    @media (max-width: 767px) {
+      margin: 0 10px; /* Margin for mobile view */
+    }
+  }
+  .image-container {
+    height: 300px; /* Adjust the height as needed */
+  }
+  /* CustomCarousel.css */
+.custom-carousel {
+  overflow-y: scroll; /* Add vertical scrollbar */
+  max-height: 500px; /* Adjust the maximum height as needed */
+  padding-right: 10px; /* Add right padding to create a gap between properties */
+}
+
+.carousel .slide {
+  padding: 10px; /* Add padding to create a gap between properties */
+}

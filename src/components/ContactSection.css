@@ -1,0 +1,13 @@
+.main {
+    background: white;
+    margin: 40px 47px; /* Default margin for desktop view */
+  
+    /* Media query for mobile view */
+    @media (max-width: 767px) {
+      margin: 20px 10px; /* Margin for mobile view */
+    }
+  }
+  .image-container {
+    height: 300px; /* Adjust the height as needed */
+  }
+  

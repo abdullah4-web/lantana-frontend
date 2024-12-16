@@ -1,0 +1,88 @@
+/* Default styles for larger screens */
+.carousel-container {
+  max-width: 100%; /* Ensure the carousel fits its container */
+} 
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Set the desired height for all carousel images on larger screens */
+}
+
+.carousel-image {
+  max-width: 100%; /* Make sure images don't exceed their containers */
+  max-height: 100%; /* Ensure images maintain their aspect ratio */
+  object-fit: cover; /* Crop images to fit the container while maintaining aspect ratio */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .carousel-item {
+    height: 250px; /* Adjust the height for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 200px; /* Further adjust the height for even smaller screens */
+  }
+
+  /* Reduce the top margin of the title on mobile */
+  h1 {
+    margin-top: 0px;
+  }
+}
+
+/* Default styles for larger screens */
+.yes {
+  margin-left: 37px;
+  margin-right: 37px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 767px) {
+  .yes {
+    margin-left: 15px; /* Adjust the left margin for smaller screens */
+    margin-right: 15px; /* Adjust the right margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .yes {
+    margin-left: 3px; /* Further adjust the left margin for even smaller screens */
+    margin-right: 3px; /* Further adjust the right margin for even smaller screens */
+  }
+}
+
+/* Default styles for larger screens */
+.about-img {
+  height: 600px; /* Set a fixed height for the user picture container */
+  overflow: hidden; /* Hide overflow if the image is larger than the container */
+  border-radius: 30px; /* Add border-radius for a rounded appearance */
+}
+
+.about-img img {
+  max-width: 100%; /* Ensure the image fits its container */
+  max-height: 100%; /* Maintain aspect ratio and prevent image from overflowing */
+  object-fit: cover; /* Crop the image to fit the container */
+}
+
+/* Media query for smaller screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .about-img {
+    height: 300px; /* Adjust the height for mobile screens */
+  }
+}
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 200px; /* Adjust the height for even smaller screens */
+  }
+
+  /* Reduce the top margin of the title on mobile */
+  h1 {
+    margin-top: 0px;
+    padding-top: 0px; /* Adjust the top margin further */
+  }
+}
